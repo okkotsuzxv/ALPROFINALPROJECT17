@@ -412,10 +412,10 @@
                 entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add("fade-up");
-                    observer.unobserve(entry.target); // Stop observing after animation
+                    observer.unobserve(entry.target); 
                 }
                 });
-            }, { threshold: 0.5 }); // Trigger when 20% of the box is visible
+            }, { threshold: 0.5 }); 
 
             boxes.forEach(box => observer.observe(box));
             });
