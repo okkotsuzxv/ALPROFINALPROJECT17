@@ -1,7 +1,8 @@
 flask
-tensorflow
 numpy
-pandas
+yfinance
 matplotlib
 scikit-learn
-yfinance
+tensorflow
+keras
+joblib
